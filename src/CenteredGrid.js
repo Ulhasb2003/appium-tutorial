@@ -110,7 +110,7 @@ export default function CenteredGrid() {
       htmlData: '<h2>Identify mobile elements</h2><ul><li>Open appium desktop client</li><li>Click search icon</li><li>Enter all capabilities</li><li>Click start session</li><li>App will be launch at right hand side</li><li>Click each element and record element id</li><li>define mobileElement object and specify respective ids and identify elements</li></ul>'
     }
   ]
-  const [headerTitle, setHeaderTitle] = useState("Appium Tutorial");
+  const [headerTitle, setHeaderTitle] = useState("Appium Tutorial - latest");
   const [tutLinks, setTutLinks] = useState(tutorialLinks);
   const [pgData, setPgData] = useState(pageData);
   const [count, setCount] = useState(1);
