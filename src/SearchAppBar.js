@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SearchAppBar() {
+export default function SearchAppBar(props) {
   const classes = useStyles();
 
   return (
@@ -71,7 +71,7 @@ export default function SearchAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            Appium Tutorial
+            {props.headerTitle}
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
